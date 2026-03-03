@@ -35,8 +35,6 @@ const tools = [
 ];
 
 function App() {
-  const [activeTool, setActiveTool] = useState(null);
-  const [showAll, setShowAll] = useState(false);
 
   const openTool = (url) => {
     window.open(url, '_blank');
